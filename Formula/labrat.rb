@@ -1,25 +1,25 @@
 class Labrat < Formula
   desc "A fast, lightweight GitLab simulator for testing anything that talks to GitLab"
   homepage "https://github.com/mabn/labrat"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mabn/labrat/releases/download/v0.1.0/labrat-aarch64-apple-darwin.tar.xz"
-      sha256 "7be3af7e625e8a8cad1769b3f4c607e743ebc1784d76a3a6602963c42085ca65"
+      url "https://github.com/mabn/labrat/releases/download/v0.2.0/labrat-aarch64-apple-darwin.tar.xz"
+      sha256 "f33167359f8bb1c25d72139c09a910a7c58c06a3848eff3bde28e7690a560b73"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mabn/labrat/releases/download/v0.1.0/labrat-x86_64-apple-darwin.tar.xz"
-      sha256 "e3183e2d2fac5d492d8fb8c613f411021f03ed31fb1ceae32f96634b04f86211"
+      url "https://github.com/mabn/labrat/releases/download/v0.2.0/labrat-x86_64-apple-darwin.tar.xz"
+      sha256 "06f7f1bf1b2b504278eb2755d1a7d81a32a984b15bc3c4c2ac9dc7206112517c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/mabn/labrat/releases/download/v0.1.0/labrat-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "1db8ca38f3b5b8e0bb64eac65e1a6bab8691f6cc5a80c682ee6a6d619b3d6bdd"
+      url "https://github.com/mabn/labrat/releases/download/v0.2.0/labrat-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "83bd4ed8f2b0865db6a3778b2cef9d1b6bb624d3b7159043f392532142f3343c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mabn/labrat/releases/download/v0.1.0/labrat-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "11ab5d923f5eb2f716b1bc1271999e69e705e139d2ce41d6528d5f3da1445bf2"
+      url "https://github.com/mabn/labrat/releases/download/v0.2.0/labrat-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "7ff30deb60cd0a1bbb8fea99fcf216ed27e855ae9d210717f807aac9385aa0d0"
     end
   end
 
